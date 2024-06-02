@@ -1,4 +1,3 @@
-// Sheep.java - Concrete class extending Animal and implementing Countable
 public class Sheep extends Animal implements Countable {
 
     public Sheep() {
@@ -7,12 +6,7 @@ public class Sheep extends Animal implements Countable {
 
     @Override
     public void incrementCount() {
-        count += 2;
-        System.out.println("Added 2 more sheep.");
-    }
-
-    @Override
-    public void makeSound() {
-        System.out.println("Sheep makes baa sound");
+        this.count += 2;
+        System.out.println("Sheep count incremented: " + this.count);
     }
 }

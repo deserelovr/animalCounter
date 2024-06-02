@@ -1,6 +1,5 @@
-// Animal.java - Abstract class
 public abstract class Animal {
-    protected int count; // number of animals
+    protected int count;
 
     public Animal() {
         this.count = 0;
@@ -13,6 +12,4 @@ public abstract class Animal {
     public int getCount() {
         return this.count;
     }
-
-    public abstract void makeSound();
 }
